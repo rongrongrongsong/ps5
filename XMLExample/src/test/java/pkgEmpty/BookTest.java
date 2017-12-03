@@ -57,6 +57,7 @@ public class BookTest {
 			fail("Exception raised");
 		}
 		assertEquals(b.getId(), bookGet.getId());
+		System.out.println("passed");
 	}
 
 }
