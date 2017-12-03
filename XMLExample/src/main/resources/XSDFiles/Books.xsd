@@ -10,6 +10,7 @@
 							</xsd:element>
 							<xsd:element name="title" type="xsd:string" />
 							<xsd:element name="genre" type="xsd:string" />
+							<xsd:element name="cost" type="xsd:double" />
 							<xsd:element name="price">
 								<xsd:simpleType>
 									<xsd:restriction
@@ -20,6 +21,7 @@
 								</xsd:simpleType>
 							</xsd:element>
 							<xsd:element name="publish_date" type="xsd:date" />
+							<xsd:element name="cost" type="xsd:double" />
 							<xsd:element name="description" type="xsd:string" />
 						</xsd:sequence>
 						<xsd:attribute name="id" type="xsd:string" />
